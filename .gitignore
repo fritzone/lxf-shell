@@ -1,3 +1,6 @@
+# Research directory
+research/*
+
 # Prerequisites
 *.d
 
