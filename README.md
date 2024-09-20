@@ -9,3 +9,5 @@ The second part (**part2**) deals with how the redirection happens in the world 
 The third part (**part3**) presents how to implement pipes between various applications.
 
 The fourth part (**part4**) introduces a plugin architecture that can be used to extend the functionality of the shell.
+
+The fifth part (**part5**) adds the long awaited colours to the prompt.
