@@ -11,3 +11,5 @@ The third part (**part3**) presents how to implement pipes between various appli
 The fourth part (**part4**) introduces a plugin architecture that can be used to extend the functionality of the shell.
 
 The fifth part (**part5**) adds the long awaited colours to the prompt.
+
+The sixth part (**part6**) adds the history management to the shell.
