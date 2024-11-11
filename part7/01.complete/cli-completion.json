@@ -1,0 +1,406 @@
+{
+   "commands":[
+      {
+         "command":"ls",
+         "executable":"/usr/bin/ls",
+         "arguments":[
+            {
+               "argument":"-a",
+               "type":"short",
+               "description":"Do not ignore entries starting with ."
+            },
+            {
+               "argument":"--all",
+               "type":"long",
+               "description":"Do not ignore entries starting with ."
+            },
+            {
+               "argument":"-A",
+               "type":"short",
+               "description":"Do not list implied . and .."
+            },
+            {
+               "argument":"--almost-all",
+               "type":"long",
+               "description":"Do not list implied . and .."
+            },
+            {
+               "argument":"--author",
+               "type":"long",
+               "description":"With -l, print the author of each file"
+            },
+            {
+               "argument":"-b",
+               "type":"short",
+               "description":"Print C-style escapes for nongraphic characters"
+            },
+            {
+               "argument":"--escape",
+               "type":"long",
+               "description":"Print C-style escapes for nongraphic characters"
+            },
+            {
+               "argument":"--block-size",
+               "type":"long",
+               "description":"With -l, scale sizes by SIZE when printing them",
+               "options":[
+                  {
+                     "option":"SIZE",
+                     "description":"SIZE is an integer and optional unit (e.g., '10K' is 10*1024). Units: K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000). Binary prefixes: KiB=K, MiB=M, etc."
+                  }
+               ]
+            },
+            {
+               "argument":"-B",
+               "type":"short",
+               "description":"Do not list implied entries ending with ~"
+            },
+            {
+               "argument":"--ignore-backups",
+               "type":"long",
+               "description":"Do not list implied entries ending with ~"
+            },
+            {
+               "argument":"-c",
+               "type":"short",
+               "description":"With -lt: sort by, and show, ctime; with -l: show ctime and sort by name; otherwise: sort by ctime, newest first"
+            },
+            {
+               "argument":"-C",
+               "type":"short",
+               "description":"List entries by columns"
+            },
+            {
+               "argument":"--color",
+               "type":"long",
+               "description":"Colorize the output",
+               "options":[
+                  {
+                     "option":"always",
+                     "description":"Always colorize the output."
+                  },
+                  {
+                     "option":"auto",
+                     "description":"Colorize the output only when the output is a terminal."
+                  },
+                  {
+                     "option":"never",
+                     "description":"Never colorize the output."
+                  }
+               ]
+            },
+            {
+               "argument":"-d",
+               "type":"short",
+               "description":"List directories themselves, not their contents"
+            },
+            {
+               "argument":"--directory",
+               "type":"long",
+               "description":"List directories themselves, not their contents"
+            },
+            {
+               "argument":"-D",
+               "type":"short",
+               "description":"Generate output designed for Emacs' dired mode"
+            },
+            {
+               "argument":"--dired",
+               "type":"long",
+               "description":"Generate output designed for Emacs' dired mode"
+            },
+            {
+               "argument":"-f",
+               "type":"short",
+               "description":"Do not sort, enable -aU, disable -ls --color"
+            },
+            {
+               "argument":"-F",
+               "type":"short",
+               "description":"Append indicator (one of */=>@|) to entries"
+            },
+            {
+               "argument":"--classify",
+               "type":"long",
+               "description":"Append indicator (one of */=>@|) to entries"
+            },
+            {
+               "argument":"--file-type",
+               "type":"long",
+               "description":"Likewise, except do not append '*'"
+            },
+            {
+               "argument":"--format",
+               "type":"long",
+               "description":"Output format",
+               "options":[
+                  {
+                     "option":"across",
+                     "description":"List entries across."
+                  },
+                  {
+                     "option":"commas",
+                     "description":"List entries separated by commas."
+                  },
+                  {
+                     "option":"horizontal",
+                     "description":"List entries horizontally."
+                  },
+                  {
+                     "option":"long",
+                     "description":"List entries in long format."
+                  },
+                  {
+                     "option":"single-column",
+                     "description":"List entries in a single column."
+                  },
+                  {
+                     "option":"verbose",
+                     "description":"List entries in verbose format."
+                  },
+                  {
+                     "option":"vertical",
+                     "description":"List entries vertically."
+                  }
+               ]
+            },
+            {
+               "argument":"--full-time",
+               "type":"long",
+               "description":"Like -l --time-style=full-iso"
+            },
+            {
+               "argument":"-g",
+               "type":"short",
+               "description":"Like -l, but do not list owner"
+            },
+            {
+               "argument":"--group-directories-first",
+               "type":"long",
+               "description":"Group directories before files; can be augmented with a --sort option, but any use of --sort=none (-U) disables grouping"
+            },
+            {
+               "argument":"-G",
+               "type":"short",
+               "description":"In a long listing, don't print group names"
+            },
+            {
+               "argument":"--no-group",
+               "type":"long",
+               "description":"In a long listing, don't print group names"
+            },
+            {
+               "argument":"-h",
+               "type":"short",
+               "description":"With -l and -s, print sizes like 1K 234M 2G etc."
+            },
+            {
+               "argument":"--human-readable",
+               "type":"long",
+               "description":"With -l and -s, print sizes like 1K 234M 2G etc."
+            },
+            {
+               "argument":"--si",
+               "type":"long",
+               "description":"Likewise, but use powers of 1000 not 1024"
+            },
+            {
+               "argument":"-H",
+               "type":"short",
+               "description":"Follow symbolic links listed on the command line"
+            },
+            {
+               "argument":"--dereference-command-line",
+               "type":"long",
+               "description":"Follow symbolic links listed on the command line"
+            },
+            {
+               "argument":"--dereference-command-line-symlink-to-dir",
+               "type":"long",
+               "description":"Follow each command line symbolic link that points to a directory"
+            },
+            {
+               "argument":"--hide",
+               "type":"long",
+               "description":"Do not list implied entries matching shell PATTERN (overridden by -a or -A)",
+               "options":[
+                  {
+                     "option":"PATTERN",
+                     "description":"Shell pattern to match entries that should be hidden."
+                  }
+               ]
+            },
+            {
+               "argument":"--hyperlink",
+               "type":"long",
+               "description":"Hyperlink file names",
+               "options":[
+                  {
+                     "option":"always",
+                     "description":"Always hyperlink file names."
+                  },
+                  {
+                     "option":"auto",
+                     "description":"Hyperlink file names when the output is a terminal."
+                  },
+                  {
+                     "option":"never",
+                     "description":"Never hyperlink file names."
+                  }
+               ]
+            },
+            {
+               "argument":"--indicator-style",
+               "type":"long",
+               "description":"Append indicator with style WORD to entry names",
+               "options":[
+                  {
+                     "option":"none",
+                     "description":"No indicator (default)."
+                  },
+                  {
+                     "option":"slash",
+                     "description":"Append / indicator to directories."
+                  },
+                  {
+                     "option":"file-type",
+                     "description":"Append indicator based on file type."
+                  },
+                  {
+                     "option":"classify",
+                     "description":"Classify entries with indicators (same as -F)."
+                  }
+               ]
+            },
+            {
+               "argument":"-i",
+               "type":"short",
+               "description":"Print the index number of each file"
+            },
+            {
+               "argument":"--inode",
+               "type":"long",
+               "description":"Print the index number of each file"
+            },
+            {
+               "argument":"-I",
+               "type":"short",
+               "description":"Do not list implied entries matching shell PATTERN",
+               "options":[
+                  {
+                     "option":"PATTERN",
+                     "description":"Shell pattern to match entries that should be ignored."
+                  }
+               ]
+            },
+            {
+               "argument":"--ignore",
+               "type":"long",
+               "description":"Do not list implied entries matching shell PATTERN",
+               "options":[
+                  {
+                     "option":"PATTERN",
+                     "description":"Shell pattern to match entries that should be ignored."
+                  }
+               ]
+            },
+            {
+               "argument":"-k",
+               "type":"short",
+               "description":"Default to 1024-byte blocks for disk usage; used only with -s and per directory totals"
+            },
+            {
+               "argument":"--kibibytes",
+               "type":"long",
+               "description":"Default to 1024-byte blocks for disk usage; used only with -s and per directory totals"
+            },
+            {
+               "argument":"-l",
+               "type":"short",
+               "description":"Use a long listing format"
+            },
+            {
+               "argument":"-L",
+               "type":"short",
+               "description":"When showing file information for a symbolic link, show information for the file the link references rather than for the link itself"
+            },
+            {
+               "argument":"--dereference",
+               "type":"long",
+               "description":"When showing file information for a symbolic link, show information for the file the link references rather than for the link itself"
+            },
+            {
+               "argument":"-m",
+               "type":"short",
+               "description":"Fill width with a comma separated list of entries"
+            },
+            {
+               "argument":"--numeric-uid-gid",
+               "type":"long",
+               "description":"Like -l, but list numeric user and group IDs"
+            },
+            {
+               "argument":"-n",
+               "type":"short",
+               "description":"Like -l, but list numeric user and group IDs"
+            },
+            {
+               "argument":"--literal",
+               "type":"long",
+               "description":"Print entry names without quoting"
+            },
+            {
+               "argument":"-N",
+               "type":"short",
+               "description":"Print entry names without quoting"
+            },
+            {
+               "argument":"-o",
+               "type":"short",
+               "description":"Like -l, but do not list group information"
+            },
+            {
+               "argument":"-p",
+               "type":"short",
+               "description":"Append / indicator to directories"
+            },
+            {
+               "argument":"--indicator-style",
+               "type":"long",
+               "description":"Append / indicator to directories",
+               "options":[
+                  {
+                     "option":"slash",
+                     "description":"Append / indicator to directories."
+                  }
+               ]
+            },
+            {
+               "argument":"-q",
+               "type":"short",
+               "description":"Print ? instead of nongraphic characters"
+            },
+            {
+               "argument":"--hide-control-chars",
+               "type":"long",
+               "description":"Print ? instead of nongraphic characters"
+            },
+            {
+               "argument":"--show-control-chars",
+               "type":"long",
+               "description":"Show nongraphic characters as-is"
+            },
+            {
+               "argument":"-Q",
+               "type":"short",
+               "description":"Enclose entry names in double quotes"
+            },
+            {
+               "argument":"--quote-name",
+               "type":"long",
+               "description":"Enclose entry names in double quotes"
+            }
+         ]
+      }
+   ]
+}

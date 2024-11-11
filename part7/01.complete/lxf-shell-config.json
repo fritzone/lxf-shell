@@ -1,0 +1,7 @@
+{
+  "shell": {
+    "prompt": {
+      "current": "\\f{green}\\u:\\f{blue}\\w\\f{white}$ "
+    }
+  }
+}
