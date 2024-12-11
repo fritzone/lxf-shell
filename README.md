@@ -15,3 +15,6 @@ The fifth part (**part5**) adds the long awaited colours to the prompt.
 The sixth part (**part6**) adds the history management to the shell.
 
 The seventh part (**part7**) adds command line completion to the shell.
+
+The eighth part (**part8**) adds a tiny little game and ncurses tutorial.
+
